@@ -1,74 +1,68 @@
 {
-  "users": [
+  "livros": [
     {
       "id": 1,
-      "first_name": "Justina",
-      "last_name": "Ginglell",
-      "email": "jginglell0@networkadvertising.org",
-      "gender": "Female"
+      "titulo": "O Principe",
+      "autor_id": 1,
+      "genero_id": 1
     },
     {
       "id": 2,
-      "first_name": "Marion",
-      "last_name": "Jenman",
-      "email": "mjenman1@surveymonkey.com",
-      "gender": "Male"
+      "titulo": "A Arte da Guerra",
+      "autor_id": 2,
+      "genero_id": 1
     },
     {
       "id": 3,
-      "first_name": "Ingrim",
-      "last_name": "Offen",
-      "email": "ioffen9@slideshare.net",
-      "gender": "Male"
+      "titulo": "Malleus Maleficarum",
+      "autor_id": 3,
+      "genero_id": 1
     },
     {
-      "id": 5,
-      "first_name": "Reid",
-      "last_name": "Schapero",
-      "email": "rschapero4@timesonline.co.uk",
-      "gender": "Male"
-    },
-    {
-      "id": 6,
-      "first_name": "Dorine",
-      "last_name": "Braybrookes",
-      "email": "dbraybrookes5@gov.uk",
-      "gender": "Female"
-    },
-    {
-      "id": 7,
-      "first_name": "Sarena",
-      "last_name": "Frape",
-      "email": "sfrape6@alexa.com",
-      "gender": "Female"
-    },
-    {
-      "id": 8,
-      "first_name": "Malva",
-      "last_name": "Pierse",
-      "email": "mpierse7@usda.gov",
-      "gender": "Female"
-    },
-    {
-      "id": 9,
-      "first_name": "Rania",
-      "last_name": "Dablin",
-      "email": "rdablin8@state.gov",
-      "gender": "Female"
-    },
-    {
-      "id": 10,
-      "first_name": "Ingrim",
-      "last_name": "Offen",
-      "email": "ioffen9@slideshare.net",
-      "gender": "Male"
-    },
-    {
-      "id": 11,
-      "first_name": "Ingrim",
-      "last_name": "Offen",
-      "email": "ioffen9@slideshare.net",
-      "gender": "Male"
+      "id": 4,
+      "titulo": "Fogo & Sangue",
+      "autor_id": 4,
+      "genero_id": 4
     }
+
+  ],
+  "autor": [
+    {
+      "id": 1,
+      "nome": "Nicolau Maquiavel"
+    },
+    {
+      "id": 2,
+      "nome": "Sun Tzu"
+    },
+    {
+      "id": 3,
+      "nome": "Heinrich Kraemer"
+    },
+    {
+      "id": 4,
+      "nome": "George R.R. Martin"
+    }
+
+  ],
+  "genero": [
+    {
+      "id": 1,
+      "tipo": "Não ficção"
+    },
+    {
+      "id": 2,
+      "tipo": "Romance"
+    },
+    {
+      "id": 3,
+      "tipo": "Fantasia"
+    },
+    {
+      "id": 4,
+      "tipo": "Ficção"
+    }
+
   ]
+
 }
