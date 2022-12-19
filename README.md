@@ -2,7 +2,7 @@
 
 Aplicação de Api de Biblioteca
 
-contém 4 rotas
+contém 3 rotas
 
 /livros
 
